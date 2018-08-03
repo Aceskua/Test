@@ -121,7 +121,7 @@ namespace Test
             byte[] b = strToToHexByte(ss2);
             byte[] b1 = GetFingerInfo(b);
             string finger = Convert.ToBase64String(b1, 0, b1.Length);
-            string rrr = "111";
+            string rrr = "111";//76458745
 
             foreach (byte bt in b1)
             {
